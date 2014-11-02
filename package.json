@@ -1,14 +1,19 @@
 {
   "name": "poemjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "0.0.1a",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.0",
+    "polymer": "0.4.1",
+    "mongodb": "1.4.19"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:AttilaSATAN/poemjs"
+    "url": "git@github.com:AttilaSATAN/poemjs.git"
   },
   "keywords": [
     "Polymer",
@@ -18,7 +23,7 @@
   "author": "Attila SATAN <attila.satan@gmail.com> (http://lupuseum.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AttilaSATAN/poem/issues"
+    "url": "https://github.com/AttilaSATAN/poemjs/issues"
   },
   "homepage": "https://github.com/AttilaSATAN/poemjs"
 }
